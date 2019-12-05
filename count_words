@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+
+int countWords(char str[]) 
+{
+ int l=strlen(str);
+  if(l==0)
+    return 0;
+  else
+  {
+  int c=1;
+  for(int i=0;str[i]!='\0';i++){
+  if(str[i]==' '&& str[i+1]!=' ')
+    c++;
+  }
+  return c;
+  }
+}
+
+
+int main()
+{
+    char str1[]="hello this is me";
+    printf("number of words = %d.",countWords(str1));
+    return 0;
+}
+
