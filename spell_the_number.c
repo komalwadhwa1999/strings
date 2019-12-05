@@ -31,7 +31,7 @@ void count2(int num)
   if(num==12)
     printf("twelve");
   if(num==13)
-    printf("thidrteen");
+    printf("thirteen");
   if(num==14)
     printf("fourteen");
   if(num==15)
